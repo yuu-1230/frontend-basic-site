@@ -254,6 +254,16 @@ img {
   background-color: var(--color-accent-yellow);
   gap: 10px;
   filter: drop-shadow(4px 4px var(--color-accent-red));
+  transition: 0.3s;
+}
+.courses-card:hover {
+  width: 800px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-course-hover-yellow);
+  gap: 10px;
+  filter: drop-shadow(12px 12px var(--color-accent-red));
 }
 .card-title {
   display: flex;
@@ -327,7 +337,19 @@ img {
   width: 730px;
   height: 29px;
   gap: 10px;
+  background-color: var(--color-accent-red);
   filter: drop-shadow(4px 4px var(--color-accent-yellow));
+  transition: 0.3s;
+}
+.all-courses-button:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 730px;
+  height: 29px;
+  gap: 10px;
+  background-color: var(--color-button-hover-red);
+  filter: drop-shadow(12px 12px var(--color-course-hover-yellow));
 }
 .all-courses-text {
   color: var(--color-white);
