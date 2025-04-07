@@ -219,7 +219,6 @@ img {
 .courses {
   font-family: var(--font-family-heading);
   padding: 80px 0px;
-  gap: 30px;
   background-color: var(--color-background-navy);
 }
 
@@ -393,4 +392,100 @@ img {
     width: 100%;
     padding: 0px;
   }
+}
+/* signup */
+.signup {
+  padding: 80px 0px;
+  gap: 30px;
+  background-color: var(--color-accent-yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-container {
+  max-width: 880px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 40px;
+  gap: 40px;
+}
+
+.signup-title {
+  font-family: var(--font-family-heading);
+  font-size: 32px;
+  margin: 0%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.signup-description {
+  width: 100%;
+}
+.signup-form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+.text-input {
+  display: flex;
+  justify-content: space-between;
+}
+.text-input > label {
+  font-size: 20px;
+}
+
+.text-input > input {
+  max-width: 550px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px 10px;
+  background-color: var(--color-form-background-yellow);
+  border: 1px solid var(--color-form-border-red);
+}
+#enthusiasm {
+  max-width: 550px;
+  padding: 10px;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px 10px;
+  border: 1px solid var(--color-form-border-red);
+  background-color: var(--color-form-background-yellow);
+}
+
+.submit {
+  max-width: 800px;
+  width: 100%;
+  height: 60px;
+  gap: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-accent-red);
+  filter: drop-shadow(4px 4px var(--color-black));
+  transition: 0.3s;
+}
+.submit-text {
+  font-size: 20px;
+}
+
+.submit:hover {
+  background-color: var(--color-button-hover-red);
+  filter: drop-shadow(12px 12px var(--color-black));
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 60px 0px;
+  gap: 40px;
+  background-color: var(--color-background-navy);
+}
+.footer-text {
+  color: var(--color-white);
 }
