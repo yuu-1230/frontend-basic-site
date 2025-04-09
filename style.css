@@ -442,6 +442,9 @@ img {
 .signup-description {
   width: 100%;
 }
+.signup-description-text {
+  margin: 0px 0px;
+}
 .signup-form {
   display: flex;
   justify-content: space-between;
@@ -518,8 +521,6 @@ img {
   .signup-form {
     gap: 10px;
   }
-  .signup-description-text {
-  }
   .text-input {
     flex-direction: column;
   }
@@ -538,6 +539,7 @@ img {
   }
   .submit-text {
     font-size: 16px;
+    color: var(--color-white);
   }
   .submit-vector {
     width: 30px;
